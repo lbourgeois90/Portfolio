@@ -1,0 +1,71 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header > h1{
+    padding-top: 40px;
+    text-align:center;
+    background-color: #F2F3EE;
+    margin:0px;
+    height:80px;
+    font-family: 'Crimson Text', serif;
+    
+    
+}
+nav ul{
+    list-style-type: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #c9af98;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+nav ul > li{
+    display: inline-block;
+    margin:  0px 50px 0px 15px;
+    color: #3a4660;
+    font-weight: bold;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3a4660;
+    font-weight: bold;
+    font-family: 'Crimson Text', serif;
+
+}
+nav ul li a:hover {
+    color:white;
+    font-weight:bold;
+}
+
+#aboutMeContainer{
+    
+    width: 100%;
+    display:inline-block;
+    background-color: #3a4660;
+    font-family: 'Crimson Text', serif;
+    color: #F2F3EE;
+    float:left;
+}
+
+#aboutMe > h1 {
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+
+#aboutMe >hr{
+    background-color: #F2F3EE;
+    width: 40%;
+    margin-top: 0px;
+}
+
+#aboutMe >p {
+    margin-left: 10px;
+}

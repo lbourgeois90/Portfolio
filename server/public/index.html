@@ -5,17 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Lili Bourgeois Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700,700i" rel="stylesheet">
     <script src="jquery-3.3.1.min.js"></script>
     <script src="client.js"></script>
 </head>
 <body>
-    <header> Lili Bourgeois Portfolio</header>
+
+    <header > 
+        <h1>Lili Bourgeois Portfolio</h1>
     <nav>
-        <li>Home</li>
-        <li>Web Development Projects</li>
-        <li>Life Science Curriculum Projects</li>
-        <li>Resume</li>
+        <ul>
+             <li><a href="../index.html">Home</a></li>
+             <li><a href="pages/aboutme.html">Profile</a></li>
+            <li><a href="pages/webdevelopment.html">Web Development Projects</a></li>
+            <li><a href="pages/sciencecurriculum.html">Life Science Curriculum Projects</a></li>
+             <li><a href="pages/resume.html">Resume</a></li>
+        </ul>
     </nav>
+   <div id="holdLearnedAndUpload">
+      <div id="learnedSoFar">
+          <h1>Front/Back-End Development Learned So Far:</h1><hr>
+          <p>Each week brings with it new challenges but also wonderful learning experiences.</p>
+          <p>Below is a list of various languages, runtime environments, server communication technologies etc., that I have learned:</p>
+          <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>Node</li>
+              <li>Express</li>
+              <li>AJAX</li>
+          </ul>
+        
+     </div>
+     <div id="currentUpload">
+        <h1>Currently Working On</h1><hr>
+        <p>The current web application that I am working on is called Server Side Calculator.</p>
+        <p>The requirements for the project are as follows:</p>
+        <ul>
+            <li>User interface with two input fields for number values.</li>
+            <li>Select for mathematical operators (addition, subtraction, multiplcation, division).</li>
+            <li>Submit button with text "=" that will run calculations, clear button with text "C" that will clear input fields and clear history button that will remove calculations from DOM.</li>
+            <li>Server-side logic to run mathematical calculations.</li>
+            <li>Historical record to track all operations with resulting solutions.</li>
+            <li>Validation that does not allow logic to occur unless input fields are valid(contain numbers and are not empty fields).</li>
+        </ul>
+        <video class= "video" width="625" height="300" controls>
+        <source src="imagesandvideos/ServiceSideCalculatorDemo.mov" type="video/mp4">
+        </div>
+        <div id="additionalInfo">
+            <h1>Additional Info</h1><hr>
+
+            <!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_follow_toolbox_e9lg"></div>
+       
+</header>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+ <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c8ed04e46792457"></script>
+
 </body>
 </html>
