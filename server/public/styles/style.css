@@ -5,12 +5,14 @@ body, html{
 }
 
 header > h1{
-    padding-top: 40px;
+    padding-top: 30px;
     text-align:center;
     background-color: #F2F3EE;
     margin:0px;
     height:80px;
     font-family: 'Crimson Text', serif;
+    font-size:50px;
+    padding-bottom:30px;
     
     
 }
@@ -21,12 +23,14 @@ nav ul{
     background-color: #c9af98;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-size:20px;
+    padding: 0px;
     
 }
 
 nav ul > li{
     display: inline-block;
-    margin:  0px 50px 0px 15px;
+    margin:  0 6% 0 3%;
     color: #3a4660;
     font-weight: bold;
 
@@ -175,3 +179,4 @@ nav ul li a:hover {
 #gmail{
     margin-left: 21%;
 }
+
