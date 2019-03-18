@@ -48,34 +48,18 @@ nav ul li a:hover {
     font-weight:bold;
 }
 
-
-#aboutMeContainer{
-    
-    width: 100%;
-    display:inline-block;
-    background-color: #3a4660;
+.personal{
+    list-style-type: none;
+    color: #3a4660;
     font-family: 'Crimson Text', serif;
-    color: #F2F3EE;
 }
 
-#aboutMe > h1 {
-    text-align: center;
-    
+.headersinfo, .headers{
+    color: #3a4660;
+    font-family: 'Crimson Text', serif;
 
 }
 
-#aboutMe >hr{
-    background-color: #F2F3EE;
-    width: 40%;
-    margin-top: 0px;
-}
-
-#aboutMe >p {
+.personal, .headersinfo, .headers{
     margin: 25px;
-}
-
-#me {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
